@@ -1,0 +1,21 @@
+# Ignore Maven & Gradle build files
+movie-backend/target/
+movie-backend/.mvn/
+movie-backend/.gradle/
+
+# Ignore Node.js dependencies
+movie-frontend/node_modules/
+movie-frontend/dist/
+movie-frontend/out-tsc/
+movie-frontend/.angular/
+
+# Ignore logs & system files
+*.log
+*.out
+*.tmp
+*.swp
+*.swo
+logs/
+.vscode/
+.idea/
+*.DS_Store

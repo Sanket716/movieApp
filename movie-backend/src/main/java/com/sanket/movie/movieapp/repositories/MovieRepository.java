@@ -1,0 +1,10 @@
+package com.sanket.movie.movieapp.repositories;
+
+import com.sanket.movie.movieapp.entities.Movie;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface MovieRepository extends JpaRepository<Movie,Integer> {
+
+}
